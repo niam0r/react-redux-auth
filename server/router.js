@@ -9,4 +9,5 @@ module.exports = function(app) {
     res.send({ hi: 'there'});
   });
   app.post('/signup', Authentication.signup);
+  // app.post('/signin', Authentication.signin);
 }
